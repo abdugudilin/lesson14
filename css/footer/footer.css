@@ -1,0 +1,20 @@
+footer {
+  border-top: 1px solid rgb(95, 91, 91);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+footer .logo {
+  display: flex;
+  align-items: center;
+}
+footer .lex {
+  color: #939393;
+}/*# sourceMappingURL=footer.css.map */

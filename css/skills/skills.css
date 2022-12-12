@@ -1,0 +1,78 @@
+.skills__block {
+  display: flex;
+}
+.skills__block__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills__block__right .speaking, .skills__block__right .writing,
+.skills__block__right .reading, .skills__block__right .listening {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.skills__block__right .speaking .textblock, .skills__block__right .writing .textblock,
+.skills__block__right .reading .textblock, .skills__block__right .listening .textblock {
+  text-align: center;
+}
+.skills__block__right .speaking .textblock button, .skills__block__right .writing .textblock button,
+.skills__block__right .reading .textblock button, .skills__block__right .listening .textblock button {
+  padding: 15px 35px;
+  box-sizing: border-box;
+}
+.skills__block__right .imageblock {
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+}
+.skills__block__right .imageblock .img {
+  width: 100%;
+  height: 100%;
+}
+.skills__block__right .imageblock .writing, .skills__block__right .imageblock .reading {
+  position: absolute;
+}
+.skills__block__right .imageblock .writing .textblock, .skills__block__right .imageblock .reading .textblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills__block__right .imageblock .writing .textblock button, .skills__block__right .imageblock .reading .textblock button {
+  position: absolute;
+  bottom: 30px;
+}
+.skills__block__right .speaking {
+  min-height: 100%;
+}
+.skills__block__right .listening {
+  display: flex;
+}
+.skills__block__right .listening .textblock {
+  text-align: start;
+}
+.skills__block__right .imageblock {
+  height: 100%;
+}
+.skills__block__right__topblocks {
+  display: flex;
+  gap: 18px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.skills__block__right .textblock {
+  text-align: center;
+}
+.skills__block .listening .textblock {
+  text-align: start;
+}
+.skills__block__right {
+  display: flex;
+  flex-direction: column;
+}
+.skills__block__right__topblock {
+  display: flex;
+}/*# sourceMappingURL=skills.css.map */
